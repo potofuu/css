@@ -1,2 +1,2 @@
 # css
-Miscellaneous collection of CSS elements
+Collection of CSS animations
