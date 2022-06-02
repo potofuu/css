@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Background animation</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2><span>Animated Background</span><br>Anime.js</h2>
+        </div>
+        <script src="anime.min.js"></script>
+        <script>
+            const container = document.querySelector('.container');
+            for (var i = 0; i <= 25; i++) {
+                const blocks = document.createElement('div');
+                blocks.classList.add('block');
+                container.appendChild(blocks);
+            }
+
+            function animateBlocks() {
+                anime({
+                    targets: '.block',
+                    translateX: function() {
+                        return anime.random(-600, 600);
+                    },
+                    translateY: function() {
+                        return anime.random(-250, 250);
+                    },
+                    scale: function() {
+                        return anime.random(1, 5);
+                    },
+
+                    easing: 'linear', duration: 3000, delay: anime.stagger(10), complete: animateBlocks,
+                })
+            }
+
+            animateBlocks();
+        </script>
+    </body>
+</html>
