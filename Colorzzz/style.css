@@ -15,3 +15,33 @@
     width: 100px;
     background: linear-gradient(to bottom right, #87CF8E, #b8cf87);
 }
+
+.snowy {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to bottom right, #FFDEF2, #E6F0FF);
+}
+
+.batman {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to bottom right, #333333, #121212);
+}
+
+.lemon {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to bottom right, #FBCD38, #FCBB5B);
+}
+
+.aqua {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to bottom right, #38FBEF, #5BAFFC);
+}
+
+.fire {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to bottom right, #FF6C87, #FC7246);
+}
