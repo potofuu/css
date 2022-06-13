@@ -1,0 +1,17 @@
+.pastel {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to bottom right, #DD95F7 0%, #9AADF9 50%, #7FC9D9 100%);
+}
+
+.peachy {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to bottom right, #FF48B6, #FF7E6C);
+}
+
+.greeny {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to bottom right, #87CF8E, #b8cf87);
+}
