@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+.card {
+    margin: auto;
+    width: 150px;
+    height: 200px;
+    background: royalblue;
+    border-radius: 4px;
+    transform: rotate(20 deg) skew(-10 deg, -5 deg);
+    transition: box-shadow .25s ease-in;
+}
+
+.card:hover {
+    box-shadow:
+    rgba(255, 255, 255, 0.5) 5px 3px,
+    rgba(255, 255, 255, 0.4) 10px 6px,
+    rgba(255, 255, 255, 0.3) 15px 9px;
+}
