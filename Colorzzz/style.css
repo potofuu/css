@@ -1,47 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 100px;
+  }
+
 .pastel {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background: linear-gradient(to bottom right, #DD95F7 0%, #9AADF9 50%, #7FC9D9 100%);
 }
 
 .peachy {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background: linear-gradient(to bottom right, #FF48B6, #FF7E6C);
 }
 
 .greeny {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background: linear-gradient(to bottom right, #87CF8E, #b8cf87);
 }
 
 .snowy {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background: linear-gradient(to bottom right, #FFDEF2, #E6F0FF);
 }
 
 .batman {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background: linear-gradient(to bottom right, #333333, #121212);
+    color: #fff;
 }
 
 .lemon {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background: linear-gradient(to bottom right, #FBCD38, #FCBB5B);
 }
 
 .aqua {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background: linear-gradient(to bottom right, #38FBEF, #5BAFFC);
 }
 
 .fire {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background: linear-gradient(to bottom right, #FF6C87, #FC7246);
 }
